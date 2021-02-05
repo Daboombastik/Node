@@ -1,0 +1,18 @@
+npm init  --yes; initialize package.json without specifying questions
+npm list; tree of all modules in node_modules/
+npm list --depth=0; tree of major modules in node_modules/
+npm view {package}; shows package.json of specific module
+npm view {package} dependencies; only shows dependencies in package.json of specific module
+npm view {package} versions; shows all versions of specific module
+npm install {package}@{version}; install a specific version
+npm outdated; shows packages that may be updated to newer versions
+npm update; updates the outdated packages to latest compatible version
+for global update we need to install "npm-check-updates" util
+npm install -g npm-check-updates;
+after that we need to pass the command:
+npm-check-updates; global update to latest versions
+npm install {package} --save-dev; developer dependencies
+npn uninstall {package}; uninstall a specific module
+npm adduser; add account to Node;
+npm login; login to your account in Node
+npm i -g nodemon; полезная приблуда

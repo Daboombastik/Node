@@ -1,0 +1,10 @@
+{
+  "name": {
+    "module": "My default App",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": {
+    "module": "development",
+    "target": "es5",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
