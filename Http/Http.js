@@ -1,6 +1,7 @@
 const http = require("http");
 const server = http.createServer(function (request, response) {
     if (request.url === "/") {
+        request.
         response.write ("Hello world");
         response.end();
     }
@@ -10,8 +11,6 @@ const server = http.createServer(function (request, response) {
     }
 });
 server.listen(3000);
-
-
 
 server.addListener("connection", (socket) => {
     console.log("New connection established on port 3000...");
